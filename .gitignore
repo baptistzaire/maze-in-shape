@@ -1,0 +1,43 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore test coverage reports
+.coverage
+htmlcov/
+
+# Ignore models directory content
+models/*
+
+# Ignore data examples (if they become large)
+# data/examples/
+
+# Ignore configuration files that might contain sensitive info (if any)
+# config/*.local.yaml
+
+# Ignore specific files
+# my_script.log
+
+# Ignore jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore environment variables file
+.env

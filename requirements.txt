@@ -1,0 +1,13 @@
+numpy>=1.20
+opencv-python>=4.5
+Pillow>=9.0
+matplotlib>=3.5
+pytest>=7.0 # For running tests
+pytest-mock>=3.0 # For mocker fixture in tests
+click>=8.0 # For Command Line Interface
+streamlit>=1.20 # For Graphical User Interface
+
+# Optional dependencies for specific segmenters:
+rembg>=2.0 # For RembgSegmenter
+torch>=1.10 # For DeepLearningSegmenter (CPU/GPU version needed)
+torchvision>=0.11 # For DeepLearningSegmenter (needs version compatible with torch)
